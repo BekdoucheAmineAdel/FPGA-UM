@@ -4,7 +4,7 @@
 -- 
 -- Create Date: [Insert actual date]
 -- Design Name: M2-FPGA
--- Module Name: TOP_VGA_SPRITES_tb - Behavioral
+-- Module Name: TOP_VGA_STRIPES_tb - Behavioral
 -- Project Name: FPGA Crash Course
 -- Target Devices: Xilinx Artix-7 (or your specific FPGA)
 -- Tool Versions: Vivado 2023.1 (or your actual version)
@@ -28,10 +28,10 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity TOP_VGA_SPRITES_tb is
-end TOP_VGA_SPRITES_tb;
+entity TOP_VGA_STRIPES_tb is
+end TOP_VGA_STRIPES_tb;
 
-architecture Behavioral of TOP_VGA_SPRITES_tb is
+architecture Behavioral of TOP_VGA_STRIPES_tb is
 
 signal clk, rst, hsync, vsync: STD_LOGIC;
 signal RGB : STD_LOGIC_VECTOR (11 downto 0);
