@@ -96,6 +96,6 @@ report.pdf
 
 👨‍💻 Author
 -----------
-Amine Adel Bekdouche  
-Master's Student – Capteurs, Électronique & Objets Connectés (CEO)  
-Université de Montpellier
+Amine Bekdouche  
+Master's Student – Sensors, Electronics & IoT (SEI)  
+University of Montpellier
