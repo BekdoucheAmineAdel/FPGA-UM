@@ -48,4 +48,4 @@ Distributed for educational purposes.
 
 ---
 
-*Created and maintained by Bekdouche Amine Adel.*
+*Created and maintained by Bekdouche Amine.*
