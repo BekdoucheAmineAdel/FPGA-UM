@@ -74,24 +74,37 @@ Each component includes a testbench to validate:
 📂 File Structure
 -----------------
 src/
+
 ├── gen_pixel_clk.vhd
+
 ├── VGA_640x480.vhd
+
 ├── VGA_PROM.vhd
+
 ├── VGA_PROM_2.vhd
+
 ├── TOP_VGA_STRIPES.vhd
+
 ├── TOP_VGA_PROM.vhd
+
 ├── TOP_VGA_PROM_2.vhd
+
 ├── PROM.vhd
+
 └── img2.m
 
 tb/
+
 ├── VGA_640x480_tb.vhd
+
 └── TOP_VGA_STRIPES_tb.vhd
 
 constraints/
+
 └── basys3_mapping.xdc
 
 README.md
+
 report.pdf
 
 👨‍💻 Author
