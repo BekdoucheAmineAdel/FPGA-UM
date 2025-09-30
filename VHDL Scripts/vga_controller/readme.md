@@ -1,14 +1,14 @@
 VGA Controller in VHDL
 ======================
 
-🎯 Project Overview
--------------------
+Project Overview
+----------------
 This project involves the design and implementation of a VGA controller using VHDL on a Basys 3 FPGA board. The controller is capable of generating synchronization signals, displaying colored patterns, and rendering sprites using PROM and Block ROM memory.
 
 Developed as part of the Master's program in Electronics, Electrical Energy & Automation at Université de Montpellier.
 
-🧩 Features
------------
+Features
+--------
 - VGA signal generation (640x480 @ 60Hz)
 - Pixel clock generation (25 MHz and 1 Hz)
 - Display of colored stripes
@@ -17,8 +17,8 @@ Developed as part of the Master's program in Electronics, Electrical Energy & Au
 - Interactive control via switches
 - Fully testbenched and simulated in Vivado
 
-🛠️ Components
--------------
+Components
+----------
 1. gen_pixel_clk
    - Generates 25 MHz pixel clock and 1 Hz clock for sprite movement
 
@@ -42,37 +42,37 @@ Developed as part of the Master's program in Electronics, Electrical Energy & Au
      - PROM sprite display
      - Block ROM sprite display
 
-🧪 Simulation & Testing
------------------------
+Simulation & Testing
+--------------------
 Each component includes a testbench to validate:
 - Clock division
 - Sync signal generation
 - RGB output correctness
 - Sprite rendering and movement
 
-🖼️ Visual Results
-------------------
+Visual Results
+--------------
 - ✅ Clock and sync signals verified via waveform
 - ✅ Stripes and sprites rendered correctly
 - ✅ Sprite movement controlled via switches
 - ✅ Complex images displayed from Block ROM
 
-🧾 Implementation
------------------
+Implementation
+--------------
 - XDC File: Defines pin constraints for Basys 3
 - Bitstream Generation: Done via Vivado
 - Programming: Bitstream uploaded to Basys 3 via USB
 
-📈 Future Improvements
-----------------------
+Future Improvements
+-------------------
 - Higher resolution support
 - Smooth sprite animation
 - Real-time interactivity
 - Resource optimization
 - Advanced applications (e.g., games, GUIs)
 
-📂 File Structure
------------------
+File Structure
+--------------
 src/
 
 ├── gen_pixel_clk.vhd
@@ -106,9 +106,3 @@ constraints/
 README.md
 
 report.pdf
-
-👨‍💻 Author
------------
-Amine Bekdouche  
-Master's Student – Sensors, Electronics & IoT (SEI)  
-University of Montpellier
